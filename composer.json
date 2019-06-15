@@ -1,0 +1,48 @@
+{
+    "name": "phpexperts/combinatorics",
+    "description": "A collection of utility classes for dealing with combinations.",
+    "keywords": [
+        "combinatorics",
+        "combinations"
+    ],
+    "homepage": "https://www.phpexperts.pro/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Experts, Inc.",
+            "homepage": "https://www.phpexperts.pro/"
+        },
+        {
+            "name": "Theodore R. Smith",
+            "homepage": "https://www.linkedin.com/in/tedrsmith"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.*|8.*",
+        "phpstan/phpstan": "*",
+        "friendsofphp/php-cs-fixer": "*",
+        "symfony/var-dumper": "*",
+        "povils/phpmnd": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPExperts\\Combinatorics\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "PHPExperts\\Combinatorics\\Tests\\" : "tests/" }
+    },
+    "config": {
+        "classmap-authoritative": true
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "php install.php"
+        ]
+    }
+}
