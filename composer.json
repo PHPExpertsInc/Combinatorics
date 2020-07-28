@@ -37,9 +37,6 @@
     "autoload-dev": {
         "psr-4": { "PHPExperts\\Combinatorics\\Tests\\" : "tests/" }
     },
-    "config": {
-        "classmap-authoritative": true
-    },
     "scripts": {
         "post-create-project-cmd": [
             "php install.php"
