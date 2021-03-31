@@ -19,9 +19,9 @@ class CombinationsGenerator
     /**
      * Taken from https://stackoverflow.com/a/56598845/430062.
      *
-     * @param array $list
+     * @param mixed[] $list
      *
-     * @return \Generator
+     * @return \Generator<mixed>
      */
     public function generate(array $list): \Generator
     {
