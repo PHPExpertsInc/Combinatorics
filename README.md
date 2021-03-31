@@ -151,7 +151,18 @@ Level 10: Generating combinations for A, B, C, D, E, F, G, H, I, J
 GPG Fingerprint: 4BF8 2613 1C34 87AC D28F  2AD8 EB24 A91D D612 5690  
 CEO: PHP Experts, Inc.
 
+{
+    "transactionId"          : "$transactionId",
+    "crmId"                  : "$crmId",
+    "zAccountId"             : "$zuoraAccountId",
+    "facilityId"             : "$facilityId",
+    "promo_code"             : "$promo_code",
+    "transactionTotal"       : "$total_cost_for_facebook",
+    "transactionProducts"    : [$transactionProducts],
+    "transactionAffiliation" : "U.S. LawShield"
+}
+
+
 ## License
 
 MIT license. Please see the [license file](LICENSE) for more information.
-
